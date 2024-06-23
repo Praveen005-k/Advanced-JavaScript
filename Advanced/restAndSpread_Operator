@@ -1,0 +1,54 @@
+/*
+    Rest Opearator respesent the (...) notation. It's used for  funcitonal opreations like adding the elements.
+
+ */
+
+// function samplefunc(name, ...addition){   //  Rest operator.
+
+//     let exam = 0 ;
+
+//     for(var i in addition){
+//         exam += addition[i];
+//     }
+
+//     console.log( exam);
+// }
+
+// samplefunc("one",1,2,13,14,156,1000);    //  call method.
+
+
+/*  
+    Spread Operator:  Spread operator also repersent the ... notations but it's joing the two array list to single array list.
+
+*/
+
+
+// const fruits = ["apple","kiwi","mango","dragon"];
+// const nums = ["three","two","one","four"];
+
+// const adding_all_arry = [...fruits, ...nums];
+// console.log(adding_all_arry);
+
+
+// Spread Operator use the Onjects also.
+
+// let obj1 = {1:"String", 2:"Number"};
+// let obj2 = {3:"undefined",3:"BigINt",4:"symbol"};
+
+// let obj3 = {...obj1, ...obj2};
+// console.log(obj3);
+
+// for(i in obj3){
+//     console.log(i + " -> " + obj3[i]);
+// }
+
+
+
+/*
+    Destruchring : It's a destruchring of the elements.
+*/
+
+var nums = [1,2,3,4,5];
+var [five,three,two,one] = nums
+console.log(five);
+console.log(one);
